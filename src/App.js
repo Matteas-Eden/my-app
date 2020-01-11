@@ -51,4 +51,4 @@ function OldApp() {
   );
 }
 
-export default App;
+export default OldApp;
