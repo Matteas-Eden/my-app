@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import {
 	BrowserRouter as Router,
@@ -10,7 +10,7 @@ import {
 	Redirect
 } from 'react-router-dom';
 
-import MainPage from './pages/index';
+import MainPage from './pages/main';
 import UsersPage from './pages/users';
 import NotFoundPage from './pages/404';
 //import UsersPage from './pages';
