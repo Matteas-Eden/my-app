@@ -10,22 +10,26 @@ import {
 	Redirect
 } from 'react-router-dom';
 
-import MainPage from './pages/main';
-import UsersPage from './pages/users';
-import NotFoundPage from './pages/404';
+import MainPage from './pages/main.jsx';
+import UsersPage from './pages/users.jsx';
+import NotFoundPage from './pages/404.jsx';
 //import UsersPage from './pages';
 
 class App extends Component {
 	render() {
 		return (
-			<Router>
-			<Switch>
-			<Route exact path='/my-app' component={MainPage} />
-			<Route exact path='/my-app/users' component={UsersPage} />
-			<Route exact path='/my-app/404' component={NotFoundPage} />
-			<Redirect to='/my-app/404'/>
-			</Switch>
-			</Router>
+      <div className="App">
+        <header className="App-header">
+          <Router>
+            <Switch>
+              <Route exact path='/my-app' component={MainPage} />
+              <Route exact path='/my-app/users' component={UsersPage} />
+              <Route exact path='*' component={NotFoundPage} />
+              <Redirect to='/my-app/404'/>
+            </Switch>
+          </Router>
+        </header>
+      </div>
 		);
 	}
 }
@@ -51,4 +55,4 @@ function OldApp() {
   );
 }
 
-export default OldApp;
+export default App;
