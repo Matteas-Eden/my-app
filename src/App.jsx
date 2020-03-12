@@ -6,7 +6,6 @@ import {
 	BrowserRouter as Router,
 	Route,
 	Switch,
-	Link,
 	Redirect
 } from 'react-router-dom';
 
@@ -32,27 +31,6 @@ class App extends Component {
       </div>
 		);
 	}
-}
-
-function OldApp() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Good things come to those who wait.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
 }
 
 export default App;
