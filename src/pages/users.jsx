@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UsersPage = () => {
+export const UsersPage = () => {
 	return (
 	<div>
 		<ul>
@@ -11,5 +11,3 @@ const UsersPage = () => {
 	</div>
 	);
 };
-
-export default UsersPage

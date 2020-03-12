@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/styles'
-import { Grid, Typography, Paper, useRadioGroup } from '@material-ui/core';
+import { Grid, Typography, Paper } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -14,12 +14,12 @@ const useStyles = makeStyles(theme => ({
   }));
   
 
-const MainPage = () => {
+export const MainPage = () => {
 
 	const classes = useStyles();
 
 	return (
-		<Grid container direction='column' spacing={3}>
+		<Grid container direction='row' justify='center' alignItems='center' spacing={3}>
 			<Grid item xs={12}>
 				<Grid container justify="center" spacing={3}>
 				{[0, 1, 2].map(value => (
@@ -40,5 +40,3 @@ const MainPage = () => {
 		</Grid>
 	);
 };
-
-export default MainPage;

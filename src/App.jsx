@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.scss';
 
 import {
@@ -9,9 +9,9 @@ import {
 	Redirect
 } from 'react-router-dom';
 
-import MainPage from './pages/main.jsx';
-import UsersPage from './pages/users.jsx';
-import NotFoundPage from './pages/404.jsx';
+import { MainPage } from './pages/main';
+import { UsersPage } from './pages/users';
+import { NotFoundPage } from './pages/404';
 //import UsersPage from './pages';
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/my-app' component={MainPage} />
               <Route exact path='/my-app/users' component={UsersPage} />
-              <Route exact path='*' component={NotFoundPage} />
+              <Route exact path='/my-app/404' component={NotFoundPage} />
               <Redirect to='/my-app/404'/>
             </Switch>
           </Router>
