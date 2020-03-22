@@ -5,6 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 import AppBar from '../components/AppBar';
 import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
+import { SignatureBasic } from '../components/SignatureBasic';
 
 const styles = theme => ({
   title: {
@@ -42,16 +43,17 @@ function AppAppBar(props) {
     <div>
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
-          <div className={classes.left} />
-          <Link
-            variant="h6"
-            underline="none"
-            color="inherit"
-            className={classes.title}
-            href="/premium-themes/onepirate/"
-          >
-            {'my app'}
-          </Link>
+          <div className={classes.left} >
+            <Link
+              variant="h6"
+              underline="none"
+              color="inherit"
+              className={classes.title}
+              href="/my-app"
+            >
+              <SignatureBasic strokeColour='#fff' strokeWidth='20' size='2em' />
+            </Link>
+          </div>
           <div className={classes.right}>
             <Link
               color="inherit"
