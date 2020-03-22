@@ -6,7 +6,7 @@ import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
-  'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80';
+  'https://images.unsplash.com/photo-1547314283-befb6cc5cf29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80';
 
 const styles = theme => ({
   background: {
@@ -37,12 +37,12 @@ function ProductHero(props) {
       {/* Increase the network loading priority of the background image. */}
       <img style={{ display: 'none' }} src={backgroundImage} alt="increase priority" />
       <Typography color="inherit" align="center" variant="h2" marked="center">
-        Upgrade your Sundays
+        I am Matteas Eden
       </Typography>
       <Typography color="inherit" align="center" variant="h5" className={classes.h5}>
-        Enjoy secret offers up to -70% off the best luxury hotels every Sunday.
+        Take a tour through my websites.
       </Typography>
-      <Button
+      {/* <Button
         color="secondary"
         variant="contained"
         size="large"
@@ -54,7 +54,7 @@ function ProductHero(props) {
       </Button>
       <Typography variant="body2" color="inherit" className={classes.more}>
         Discover the experience
-      </Typography>
+      </Typography> */}
     </ProductHeroLayout>
   );
 }
