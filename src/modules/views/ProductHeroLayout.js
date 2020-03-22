@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import StarIcon from '@material-ui/icons/Star';
-import { SignatureBasic as SignatureIcon } from '../../SignatureBasic';
+import { SignatureBasic as SignatureIcon } from '../components/SignatureBasic';
 
 const styles = theme => ({
   root: {
