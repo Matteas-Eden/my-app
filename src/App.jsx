@@ -37,7 +37,7 @@
 
 
 import React from 'react';
-import Index from './Home';
+import Index from './pages/Home';
 
 export const App = () => {
   return <Index />
