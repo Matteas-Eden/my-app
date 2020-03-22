@@ -6,12 +6,13 @@ import Container from '@material-ui/core/Container';
 import Typography from '../components/Typography';
 import TextField from '../components/TextField';
 
+
 function Copyright() {
   return (
     <React.Fragment>
       {'© '}
       <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+        matteas.nz
       </Link>{' '}
       {new Date().getFullYear()}
     </React.Fragment>
@@ -67,8 +68,8 @@ const LANGUAGES = [
     name: 'English',
   },
   {
-    code: 'fr-FR',
-    name: 'Français',
+    code: 'ja-JP',
+    name: '日本語',
   },
 ];
 
@@ -87,14 +88,14 @@ export default function AppFooter() {
               className={classes.iconsWrapper}
               spacing={2}
             >
-              <Grid item className={classes.icons}>
+              {/* <Grid item className={classes.icons}>
                 <a href="https://material-ui.com/" className={classes.icon}>
                   <img src="/static/themes/onepirate/appFooterFacebook.png" alt="Facebook" />
                 </a>
                 <a href="https://twitter.com/MaterialUI" className={classes.icon}>
                   <img src="/static/themes/onepirate/appFooterTwitter.png" alt="Twitter" />
                 </a>
-              </Grid>
+              </Grid> */}
               <Grid item>
                 <Copyright />
               </Grid>
