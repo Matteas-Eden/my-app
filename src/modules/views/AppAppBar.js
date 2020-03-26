@@ -10,6 +10,7 @@ import AppBar from '../components/AppBar';
 import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
 
 import { SignatureBasic } from '../components/SignatureBasic';
+import { Typography } from '@material-ui/core';
 
 const ScrollLink = Scroll.ScrollLink;
 
@@ -53,43 +54,17 @@ function AppAppBar(props) {
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} >
-            {/* <Link
-              variant="h6"
-              underline="none"
-              color="inherit"
-              className={classes.title}
-              href="/my-app/#home"
-            >
-              <SignatureBasic strokeColour='#fff' strokeWidth='20' size='2em' />
-            </Link> */}
-            <Link to="intro" spy={true} smooth={true} duration={500} className={classes.title}>
+            <Link to="top" spy={true} smooth={true} duration={500} className={classes.title}>
               <SignatureBasic strokeColour='#fff' strokeWidth='20' size='2em' />
             </Link>
           </div>
           <div className={classes.right}>
-            <Link to="sites" spy={true} smooth={true} duration={500} className={classes.rightLink} activeClass={'active'}>
-              Sites
+            <Link to="sites" spy={true} smooth={true} duration={500} activeClass={'active'}>
+              <Typography variant="h6" className={classes.rightLink}>Sites</Typography>
             </Link>
-            <Link to="footer" spy={true} smooth={true} duration={500} className={clsx(classes.rightLink, classes.linkSecondary)} activeClass={'active'}>
-              Footer
+            <Link to="footer" spy={true} smooth={true} duration={500} activeClass={'active'}>
+              <Typography variant="h6" className={clsx(classes.rightLink, classes.linkSecondary)} >Footer</Typography>
             </Link>
-            {/* <Link
-              color="inherit"
-              variant="h6"
-              underline="none"
-              className={classes.rightLink}
-              href="/my-app/sites"
-            >
-              {'Sites'}
-            </Link>
-            <Link
-              variant="h6"
-              underline="none"
-              className={clsx(classes.rightLink, classes.linkSecondary)}
-              href="/my-app/contact"
-            >
-              {'Contact'}
-            </Link> */}
           </div>
         </Toolbar>
       </AppBar>
