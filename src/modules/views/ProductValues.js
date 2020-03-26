@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '../components/Typography';
+import logo from '../../logo.svg';
 
 const styles = theme => ({
   root: {
@@ -12,8 +13,8 @@ const styles = theme => ({
     backgroundColor: theme.palette.secondary.light,
   },
   container: {
-    marginTop: theme.spacing(15),
-    marginBottom: theme.spacing(30),
+    marginTop: theme.spacing(10),
+    marginBottom: theme.spacing(10),
     display: 'flex',
     position: 'relative',
   },
@@ -24,7 +25,7 @@ const styles = theme => ({
     padding: theme.spacing(0, 5),
   },
   image: {
-    height: 55,
+    height: 80,
   },
   title: {
     marginTop: theme.spacing(5),
@@ -53,15 +54,15 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src="/static/themes/onepirate/productValues1.svg"
-                alt="suitcase"
+                src={logo}
+                alt="react-logo"
               />
               <Typography variant="h6" className={classes.title}>
-                The best luxury hotels
+                Made in React
               </Typography>
               <Typography variant="h5">
-                {'From the latest trendy boutique hotel to the iconic palace with XXL pool'}
-                {', go for a mini-vacation just a few subway stops away from your home.'}
+                {'Every single one of my websites uses the React library'}
+                {' to assist in building stunning user interfaces'}
               </Typography>
             </div>
           </Grid>
@@ -69,15 +70,15 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src="/static/themes/onepirate/productValues2.svg"
-                alt="graph"
+                src={logo}
+                alt="github-logo"
               />
               <Typography variant="h6" className={classes.title}>
-                New experiences
+                Hosted on GitHub Pages
               </Typography>
               <Typography variant="h5">
-                {'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '}
-                {'your Sundays will not be alike.'}
+                {'Thanks to the free hosting provided by GitHub, setting up my websites'}
+                {' was a breeze and maintenance is hassle-free'}
               </Typography>
             </div>
           </Grid>
@@ -85,15 +86,15 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src="/static/themes/onepirate/productValues3.svg"
+                src={logo}
                 alt="clock"
               />
               <Typography variant="h6" className={classes.title}>
-                Exclusive rates
+                Uses Material-UI
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                {'By making use of the Material UI React component library, I ensured clean'}
+                {' and elegant design throughout each website'}
               </Typography>
             </div>
           </Grid>
