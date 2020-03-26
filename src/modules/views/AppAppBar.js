@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
+
 import { withStyles } from '@material-ui/core/styles';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
+import {Link, animateScroll as Scroll } from 'react-scroll';
+
 import AppBar from '../components/AppBar';
 import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
+
 import { SignatureBasic } from '../components/SignatureBasic';
+
+const ScrollLink = Scroll.ScrollLink;
 
 const styles = theme => ({
   title: {
@@ -31,6 +37,9 @@ const styles = theme => ({
     color: theme.palette.common.white,
     marginLeft: theme.spacing(3),
   },
+  active: {
+    borderBottom: '1px solid #333',
+  },
   linkSecondary: {
     color: theme.palette.secondary.main,
   },
@@ -44,34 +53,43 @@ function AppAppBar(props) {
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} >
-            <Link
+            {/* <Link
               variant="h6"
               underline="none"
               color="inherit"
               className={classes.title}
-              href="/my-app"
+              href="/my-app/#home"
             >
+              <SignatureBasic strokeColour='#fff' strokeWidth='20' size='2em' />
+            </Link> */}
+            <Link to="intro" spy={true} smooth={true} duration={500} className={classes.title}>
               <SignatureBasic strokeColour='#fff' strokeWidth='20' size='2em' />
             </Link>
           </div>
           <div className={classes.right}>
-            <Link
+            <Link to="sites" spy={true} smooth={true} duration={500} className={classes.rightLink} activeClass={'active'}>
+              Sites
+            </Link>
+            <Link to="footer" spy={true} smooth={true} duration={500} className={clsx(classes.rightLink, classes.linkSecondary)} activeClass={'active'}>
+              Footer
+            </Link>
+            {/* <Link
               color="inherit"
               variant="h6"
               underline="none"
               className={classes.rightLink}
-              href="/premium-themes/onepirate/sign-in/"
+              href="/my-app/sites"
             >
-              {'Sign In'}
+              {'Sites'}
             </Link>
             <Link
               variant="h6"
               underline="none"
               className={clsx(classes.rightLink, classes.linkSecondary)}
-              href="/premium-themes/onepirate/sign-up/"
+              href="/my-app/contact"
             >
-              {'Sign Up'}
-            </Link>
+              {'Contact'}
+            </Link> */}
           </div>
         </Toolbar>
       </AppBar>
