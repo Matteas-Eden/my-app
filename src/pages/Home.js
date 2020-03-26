@@ -10,16 +10,20 @@ import ProductHowItWorks from '../modules/views/ProductHowItWorks';
 import ProductCTA from '../modules/views/ProductCTA';
 import AppAppBar from '../modules/views/AppAppBar';
 
+import { Element } from 'react-scroll';
+
 function Index() {
   return (
     <React.Fragment>
       <AppAppBar />
-      <ProductHero />
+      <Element id='intro' name='intro'>
+        <ProductHero id='home'/>
+      </Element>
       <ProductValues />
       <ProductCategories />
-      <ProductHowItWorks />
-      <ProductCTA />
-      <ProductSmokingHero />
+      {/* <ProductHowItWorks /> */}
+      {/* <ProductCTA /> */}
+      {/* <ProductSmokingHero /> */}
       <AppFooter />
     </React.Fragment>
   );
