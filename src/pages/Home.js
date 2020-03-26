@@ -17,14 +17,18 @@ function Index() {
     <React.Fragment>
       <AppAppBar />
       <Element id='intro' name='intro'>
-        <ProductHero id='home'/>
+        <ProductHero />
       </Element>
       <ProductValues />
-      <ProductCategories />
+      <Element id='sites' name='sites'>
+        <ProductCategories />
+      </Element>
       {/* <ProductHowItWorks /> */}
       {/* <ProductCTA /> */}
       {/* <ProductSmokingHero /> */}
-      <AppFooter />
+      <Element id='footer' name='footer'>
+        <AppFooter />
+      </Element>
     </React.Fragment>
   );
 }
