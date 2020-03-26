@@ -15,14 +15,12 @@ import { Element } from 'react-scroll';
 function Index() {
   return (
     <React.Fragment>
+      <Element id='top' name='top' />
       <AppAppBar />
-      <Element id='intro' name='intro'>
-        <ProductHero />
-      </Element>
+      <ProductHero />
       <ProductValues />
-      <Element id='sites' name='sites'>
-        <ProductCategories />
-      </Element>
+      <Element id='sites' name='sites' />
+      <ProductCategories />
       {/* <ProductHowItWorks /> */}
       {/* <ProductCTA /> */}
       {/* <ProductSmokingHero /> */}
