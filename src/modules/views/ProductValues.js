@@ -4,7 +4,9 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Typography from '../components/Typography';
-import logo from '../../logo.svg';
+import reactLogo from '../../react-logo.svg';
+import githubLogo from '../../github-logo.svg';
+import materialUILogo from '../../material-ui-logo.svg';
 
 const styles = theme => ({
   root: {
@@ -54,8 +56,9 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={logo}
+                src={reactLogo}
                 alt="react-logo"
+                style={{height: '15vmin' }}
               />
               <Typography variant="h6" className={classes.title}>
                 Made in React
@@ -70,8 +73,9 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={logo}
+                src={githubLogo}
                 alt="github-logo"
+                style={{height: '15vmin' }}
               />
               <Typography variant="h6" className={classes.title}>
                 Hosted on GitHub Pages
@@ -86,8 +90,9 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={logo}
-                alt="clock"
+                src={materialUILogo}
+                alt="material-ui-logo"
+                style={{height: '15vmin' }}
               />
               <Typography variant="h6" className={classes.title}>
                 Uses Material-UI
