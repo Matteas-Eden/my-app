@@ -59,11 +59,11 @@ function AppAppBar(props) {
             </Link>
           </div>
           <div className={classes.right}>
-            <Link to="sites" spy={true} smooth={true} duration={500} activeClass={'active'}>
-              <Typography variant="h6" className={classes.rightLink}>Sites</Typography>
+            <Link to="tech" spy={true} smooth={true} duration={500} activeClass={'active'}>
+              <Typography variant="h6" className={classes.rightLink}>Technology</Typography>
             </Link>
-            <Link to="footer" spy={true} smooth={true} duration={500} activeClass={'active'}>
-              <Typography variant="h6" className={clsx(classes.rightLink, classes.linkSecondary)} >Footer</Typography>
+            <Link to="sites" spy={true} smooth={true} duration={500} activeClass={'active'}>
+              <Typography variant="h6" className={clsx(classes.rightLink, classes.linkSecondary)}>Websites</Typography>
             </Link>
           </div>
         </Toolbar>
