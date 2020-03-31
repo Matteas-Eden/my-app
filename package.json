@@ -1,6 +1,6 @@
 {
-  "homepage": "http://matteas-eden.github.io/my-app",
-  "name": "my-app",
+  "homepage": "https://matteas.nz/project-showcase",
+  "name": "project-showcase",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

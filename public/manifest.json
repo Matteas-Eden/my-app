@@ -1,7 +1,7 @@
 {
-  "short_name": "Site Index",
-  "name": "Site Index -- Matteas Eden",
-  "start_url": ".",
+  "short_name": "Project Showcase",
+  "name": "Project Showcase -- Matteas Eden",
+  "start_url": "/project-showcase",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
