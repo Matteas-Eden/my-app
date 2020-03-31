@@ -92,30 +92,35 @@ function ProductCategories(props) {
         'https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400&q=80',
       title: 'Portfolio',
       width: '50%',
+      link: 'https://matteas.nz',
     },
     {
       url:
         'https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400&q=80',
       title: 'Roll for Reaction',
       width: '50%',
+      link: 'https://matteas.nz/roll-for-reaction',
     },
     {
       url:
         'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80',
       title: 'Bakugan Rerolled',
       width: '40%',
+      link: 'https://matteas.nz/bakugan-rerolled',
     },
     {
       url:
         'https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400&q=80',
       title: 'Dice Roller',
       width: '30%',
+      link: 'https://matteas.nz/dice-roller',
     },
     {
       url:
         'https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400&q=80',
       title: 'Outerstellar',
       width: '30%',
+      link: 'https://matteas.nz/outerstellar',
     },
     // {
     //   url:
@@ -155,6 +160,7 @@ function ProductCategories(props) {
             style={{
               width: image.width,
             }}
+            href={image.link}
           >
             <div
               className={classes.imageSrc}
