@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.df24737b.chunk.css",
-    "main.js": "/my-app/static/js/main.2101d4bd.chunk.js",
-    "main.js.map": "/my-app/static/js/main.2101d4bd.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.8b909c6e.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.8b909c6e.js.map",
-    "static/js/2.1ee9b652.chunk.js": "/my-app/static/js/2.1ee9b652.chunk.js",
-    "static/js/2.1ee9b652.chunk.js.map": "/my-app/static/js/2.1ee9b652.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.2798658fdb124e03ae548920330b70bc.js": "/my-app/precache-manifest.2798658fdb124e03ae548920330b70bc.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.df24737b.chunk.css.map": "/my-app/static/css/main.df24737b.chunk.css.map",
-    "static/js/2.1ee9b652.chunk.js.LICENSE.txt": "/my-app/static/js/2.1ee9b652.chunk.js.LICENSE.txt"
+    "main.css": "/project-showcase/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/project-showcase/static/js/main.d00957c4.chunk.js",
+    "main.js.map": "/project-showcase/static/js/main.d00957c4.chunk.js.map",
+    "runtime-main.js": "/project-showcase/static/js/runtime-main.ed54073f.js",
+    "runtime-main.js.map": "/project-showcase/static/js/runtime-main.ed54073f.js.map",
+    "static/js/2.9a853e45.chunk.js": "/project-showcase/static/js/2.9a853e45.chunk.js",
+    "static/js/2.9a853e45.chunk.js.map": "/project-showcase/static/js/2.9a853e45.chunk.js.map",
+    "index.html": "/project-showcase/index.html",
+    "precache-manifest.868add055038799dc3dbd0bfa2d5668a.js": "/project-showcase/precache-manifest.868add055038799dc3dbd0bfa2d5668a.js",
+    "service-worker.js": "/project-showcase/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/project-showcase/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.9a853e45.chunk.js.LICENSE.txt": "/project-showcase/static/js/2.9a853e45.chunk.js.LICENSE.txt",
+    "static/media/github-logo.svg": "/project-showcase/static/media/github-logo.5f070850.svg",
+    "static/media/material-ui-logo.svg": "/project-showcase/static/media/material-ui-logo.52f46906.svg",
+    "static/media/react-logo.svg": "/project-showcase/static/media/react-logo.3a07a0af.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b909c6e.js",
-    "static/js/2.1ee9b652.chunk.js",
-    "static/css/main.df24737b.chunk.css",
-    "static/js/main.2101d4bd.chunk.js"
+    "static/js/runtime-main.ed54073f.js",
+    "static/js/2.9a853e45.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.d00957c4.chunk.js"
   ]
 }
