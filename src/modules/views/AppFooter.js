@@ -67,10 +67,10 @@ const LANGUAGES = [
     code: 'en-US',
     name: 'English',
   },
-  {
-    code: 'ja-JP',
-    name: '日本語',
-  },
+  // {
+  //   code: 'ja-JP',
+  //   name: '日本語',
+  // },
 ];
 
 export default function AppFooter() {
@@ -93,7 +93,7 @@ export default function AppFooter() {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={6} sm={4} md={2}>
+          {/* <Grid item xs={6} sm={4} md={2}>
             <Typography variant="h6" marked="left" gutterBottom>
               Legal
             </Typography>
@@ -105,7 +105,7 @@ export default function AppFooter() {
                 <Link href="/my-app/privacy/">Privacy</Link>
               </li>
             </ul>
-          </Grid>
+          </Grid> */}
           <Grid item xs={6} sm={8} md={4}>
             <Typography variant="h6" marked="left" gutterBottom>
               Language
@@ -124,7 +124,7 @@ export default function AppFooter() {
               ))}
             </TextField>
           </Grid>
-          <Grid item>
+          {/* <Grid item>
             <Typography variant="caption">
               {'Icons made by '}
               <Link href="https://www.freepik.com" rel="sponsored" title="Freepik">
@@ -144,7 +144,7 @@ export default function AppFooter() {
                 CC 3.0 BY
               </Link>
             </Typography>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </Typography>
