@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/project-showcase/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/project-showcase/static/js/main.d00957c4.chunk.js",
-    "main.js.map": "/project-showcase/static/js/main.d00957c4.chunk.js.map",
+    "main.js": "/project-showcase/static/js/main.ac65faaf.chunk.js",
+    "main.js.map": "/project-showcase/static/js/main.ac65faaf.chunk.js.map",
     "runtime-main.js": "/project-showcase/static/js/runtime-main.ed54073f.js",
     "runtime-main.js.map": "/project-showcase/static/js/runtime-main.ed54073f.js.map",
-    "static/js/2.9a853e45.chunk.js": "/project-showcase/static/js/2.9a853e45.chunk.js",
-    "static/js/2.9a853e45.chunk.js.map": "/project-showcase/static/js/2.9a853e45.chunk.js.map",
+    "static/js/2.d343f940.chunk.js": "/project-showcase/static/js/2.d343f940.chunk.js",
+    "static/js/2.d343f940.chunk.js.map": "/project-showcase/static/js/2.d343f940.chunk.js.map",
     "index.html": "/project-showcase/index.html",
-    "precache-manifest.868add055038799dc3dbd0bfa2d5668a.js": "/project-showcase/precache-manifest.868add055038799dc3dbd0bfa2d5668a.js",
+    "precache-manifest.404552d40d57a81a55ae4814f2f3bd24.js": "/project-showcase/precache-manifest.404552d40d57a81a55ae4814f2f3bd24.js",
     "service-worker.js": "/project-showcase/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/project-showcase/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.9a853e45.chunk.js.LICENSE.txt": "/project-showcase/static/js/2.9a853e45.chunk.js.LICENSE.txt",
+    "static/js/2.d343f940.chunk.js.LICENSE.txt": "/project-showcase/static/js/2.d343f940.chunk.js.LICENSE.txt",
     "static/media/github-logo.svg": "/project-showcase/static/media/github-logo.5f070850.svg",
     "static/media/material-ui-logo.svg": "/project-showcase/static/media/material-ui-logo.52f46906.svg",
-    "static/media/react-logo.svg": "/project-showcase/static/media/react-logo.3a07a0af.svg"
+    "static/media/portfolio-bg.png": "/project-showcase/static/media/portfolio-bg.7f47e221.png",
+    "static/media/react-logo.svg": "/project-showcase/static/media/react-logo.3a07a0af.svg",
+    "static/media/roll-for-reaction-bg.png": "/project-showcase/static/media/roll-for-reaction-bg.e5ba9000.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed54073f.js",
-    "static/js/2.9a853e45.chunk.js",
+    "static/js/2.d343f940.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.d00957c4.chunk.js"
+    "static/js/main.ac65faaf.chunk.js"
   ]
 }
