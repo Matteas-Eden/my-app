@@ -103,25 +103,35 @@ function ProductCategories(props) {
       width: '50%',
       link: 'https://matteas.nz/roll-for-reaction',
     },
-    {
-      // url:
-      //   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80',
-      title: 'Bakugan Rerolled',
-      width: '40%',
-      link: 'https://matteas.nz/bakugan-rerolled',
-    },
+    // {
+    //   // url:
+    //   //   'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80',
+    //   title: 'Bakugan Rerolled',
+    //   width: '40%',
+    //   link: 'https://matteas.nz/bakugan-rerolled',
+    // },
     {
       // url:
       //   'https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400&q=80',
       title: 'Dice Roller',
-      width: '30%',
+      width: '25%',
       link: 'https://matteas.nz/dice-roller',
+    },
+    {
+      title: 'React Template',
+      width: '25%',
+      link: 'https://matteas.nz/react-template',
+    },
+    {
+      title: 'Energize',
+      width: '25%',
+      link: 'https://matteas.nz/energize',
     },
     {
       // url:
       //   'https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400&q=80',
       title: 'Outerstellar',
-      width: '30%',
+      width: '25%',
       link: 'https://matteas.nz/outerstellar',
     },
     // {
@@ -152,7 +162,7 @@ function ProductCategories(props) {
   return (
     <Container className={classes.root} component="section">
       <Typography variant="h4" marked="center" align="center" component="h2">
-        My lovingly crafted websites
+        My projects
       </Typography>
       <div className={classes.images}>
         {images.map(image => (
