@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
+import Button from '../components/Button';
 
 const backgroundImage =
   'https://images.unsplash.com/photo-1547314283-befb6cc5cf29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80';
@@ -10,7 +11,7 @@ const backgroundImage =
 const styles = theme => ({
   background: {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundColor: '#7fc7d9', // Average color of the background image.
+    backgroundColor: '#ffc100', //'#7fc7d9', // Average color of the background image.
     backgroundPosition: 'center',
   },
   button: {
@@ -36,22 +37,22 @@ function ProductHero(props) {
       {/* Increase the network loading priority of the background image. */}
       <img style={{ display: 'none' }} src={backgroundImage} alt="increase priority" />
       <Typography color="inherit" align="center" variant="h2" marked="center">
-        I am Matteas Eden
+        Matteas Eden
       </Typography>
       <Typography color="inherit" align="center" variant="h5" className={classes.h5}>
-        Take a tour through my websites.
+        Building the future - one line of code at a time.
       </Typography>
-      {/* <Button
+      <Button
         color="secondary"
         variant="contained"
         size="large"
         className={classes.button}
         component="a"
-        href="/premium-themes/onepirate/sign-up/"
+        href="https://github.com/Matteas-Eden"
       >
-        Register
+        Github
       </Button>
-      <Typography variant="body2" color="inherit" className={classes.more}>
+      {/* <Typography variant="body2" color="inherit" className={classes.more}>
         Discover the experience
       </Typography> */}
     </ProductHeroLayout>

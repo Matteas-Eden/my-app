@@ -4,7 +4,6 @@ import clsx from 'clsx';
 import { withStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import { SignatureBasic as SignatureIcon } from '../components/SignatureBasic';
 
 const styles = theme => ({
   root: {
@@ -57,7 +56,6 @@ function ProductHeroLayout(props) {
   return (
     <section className={classes.root}>
       <Container className={classes.container}>
-        <SignatureIcon strokeColour="#FFF" size="50" strokeWidth={20} />
         {children}
         <div className={classes.backdrop} />
         <div className={clsx(classes.background, backgroundClassName)} />
