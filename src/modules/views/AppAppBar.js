@@ -56,10 +56,10 @@ function AppAppBar(props) {
             </Link>
           </div>
           <div className={classes.right}>
-            <Link to="tech" spy={true} smooth={true} duration={500} activeClass={'active'}>
+            <Link to="tech" spy={true} offset={-50} smooth={true} duration={500} activeClass={'active'}>
               <Typography variant="h6" className={classes.rightLink}>Technology</Typography>
             </Link>
-            <Link to="projects" spy={true} smooth={true} duration={500} activeClass={'active'}>
+            <Link to="projects" spy={true} offset={-50} smooth={true} duration={500} activeClass={'active'}>
               <Typography variant="h6" className={clsx(classes.rightLink, classes.linkSecondary)}>Projects</Typography>
             </Link>
           </div>
