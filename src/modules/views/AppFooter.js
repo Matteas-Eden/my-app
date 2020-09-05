@@ -93,19 +93,6 @@ export default function AppFooter() {
               </Grid>
             </Grid>
           </Grid>
-          {/* <Grid item xs={6} sm={4} md={2}>
-            <Typography variant="h6" marked="left" gutterBottom>
-              Legal
-            </Typography>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <Link href="/my-app/terms/">Terms</Link>
-              </li>
-              <li className={classes.listItem}>
-                <Link href="/my-app/privacy/">Privacy</Link>
-              </li>
-            </ul>
-          </Grid> */}
           <Grid item xs={6} sm={8} md={4}>
             <Typography variant="h6" marked="left" gutterBottom>
               Language
@@ -124,27 +111,6 @@ export default function AppFooter() {
               ))}
             </TextField>
           </Grid>
-          {/* <Grid item>
-            <Typography variant="caption">
-              {'Icons made by '}
-              <Link href="https://www.freepik.com" rel="sponsored" title="Freepik">
-                Freepik
-              </Link>
-              {' from '}
-              <Link href="https://www.flaticon.com" rel="sponsored" title="Flaticon">
-                www.flaticon.com
-              </Link>
-              {' is licensed by '}
-              <Link
-                href="https://creativecommons.org/licenses/by/3.0/"
-                title="Creative Commons BY 3.0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CC 3.0 BY
-              </Link>
-            </Typography>
-          </Grid> */}
         </Grid>
       </Container>
     </Typography>
