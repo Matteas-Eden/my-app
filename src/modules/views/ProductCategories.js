@@ -102,6 +102,7 @@ function ProductCategories(props) {
       link: 'https://matteas.nz/roll-for-reaction',
     },
     {
+      url: require('../../assets/dice-roller.png'),
       title: 'Dice Roller',
       width: '25%',
       link: 'https://matteas.nz/dice-roller',
@@ -112,6 +113,7 @@ function ProductCategories(props) {
       link: 'https://matteas.nz/react-template',
     },
     {
+      url: require('../../assets/energize.png'),
       title: 'Energize',
       width: '25%',
       link: 'https://matteas.nz/energize',
