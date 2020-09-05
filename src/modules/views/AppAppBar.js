@@ -33,7 +33,7 @@ const styles = theme => ({
   rightLink: {
     fontSize: 16,
     color: theme.palette.common.white,
-    marginLeft: theme.spacing(3),
+    marginLeft: theme.spacing(3)
   },
   active: {
     borderBottom: '1px solid #333',
@@ -41,6 +41,9 @@ const styles = theme => ({
   linkSecondary: {
     color: theme.palette.secondary.main,
   },
+  cursorFix: {
+    cursor: 'pointer'
+  }
 });
 
 function AppAppBar(props) {
@@ -51,16 +54,16 @@ function AppAppBar(props) {
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} >
-            <Link to="top" spy={true} smooth={true} duration={500} className={classes.title}>
+            <Link to="top" spy={true} smooth={true} duration={500} className={clsx(classes.title, classes.cursorFix)}>
               <SignatureBasic strokeColour='#fff' strokeWidth='20' size='2em' />
             </Link>
           </div>
           <div className={classes.right}>
             <Link to="tech" spy={true} offset={-50} smooth={true} duration={500} activeClass={'active'}>
-              <Typography variant="h6" className={classes.rightLink}>Technology</Typography>
+              <Typography variant="h6" className={clsx(classes.rightLink, classes.cursorFix)}>Technology</Typography>
             </Link>
             <Link to="projects" spy={true} offset={-50} smooth={true} duration={500} activeClass={'active'}>
-              <Typography variant="h6" className={clsx(classes.rightLink, classes.linkSecondary)}>Projects</Typography>
+              <Typography variant="h6" className={clsx(classes.rightLink, classes.linkSecondary, classes.cursorFix)}>Projects</Typography>
             </Link>
           </div>
         </Toolbar>
