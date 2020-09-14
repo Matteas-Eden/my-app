@@ -10,18 +10,18 @@ import AppAppBar from '../modules/views/AppAppBar';
 import { Element } from 'react-scroll';
 
 function Index() {
-  return (
-    <React.Fragment>
-      <Element id='top' name='top' />
-      <AppAppBar />
-      <ProductHero />
-      <Element id='tech' name='tech' />
-      <ProductValues />
-      <Element id='projects' name='projects' />
-      <ProductCategories />
-      <AppFooter />
-    </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            <Element id="top" name="top" />
+            <AppAppBar />
+            <ProductHero />
+            <Element id="tech" name="tech" />
+            <ProductValues />
+            <Element id="projects" name="projects" />
+            <ProductCategories />
+            <AppFooter />
+        </React.Fragment>
+    );
 }
 
 export default withRoot(Index);
