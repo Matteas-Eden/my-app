@@ -121,6 +121,24 @@ function ProductCategories(props) {
             width: '25%',
             link: 'https://matteas.nz/outerstellar',
         },
+        {
+            url: require('../../assets/feedr.png'),
+            title: 'Feedr',
+            width: '33%',
+            link: 'https://github.com/Matteas-Eden/feedr',
+        },
+        {
+            url: require('../../assets/doto.png'),
+            title: 'Doto',
+            width: '33%',
+            link: 'https://github.com/Matteas-Eden/doto',
+        },
+        {
+            url: require('../../assets/anzen.png'),
+            title: 'Anzen',
+            width: '34%',
+            link: 'https://github.com/Matteas-Eden/anzen',
+        },
     ];
 
     return (
