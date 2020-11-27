@@ -69,7 +69,7 @@ function AppAppBar(props) {
                         </Link>
                     </div>
                     <div className={classes.right}>
-                        <Link
+                        {/* <Link
                             to="tech"
                             spy={true}
                             offset={-50}
@@ -86,7 +86,7 @@ function AppAppBar(props) {
                             >
                                 Technology
                             </Typography>
-                        </Link>
+                        </Link> */}
                         <Link
                             to="projects"
                             spy={true}
