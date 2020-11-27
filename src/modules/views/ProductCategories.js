@@ -117,6 +117,7 @@ function ProductCategories(props) {
             link: 'https://matteas.nz/energize',
         },
         {
+            url: require('../../assets/outerstellar.png'),
             title: 'Outerstellar',
             width: '25%',
             link: 'https://matteas.nz/outerstellar',
